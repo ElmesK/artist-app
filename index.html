@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body onload = "displayAllArtists()">
+
+  <form action="/artist" method="POST">
+   Artist name: <input type="text" name="artist" />
+
+   <input type="submit" value="Submit">
+  </form>
+
+  <button id="getAllArtists">Get all artists</button>
+  <div id="displayArtists"></div>
+
+<button id = "deleteAllArtists" onClick = 'deleteArtist()'>Delete all artists</button>
+
+
+<script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
